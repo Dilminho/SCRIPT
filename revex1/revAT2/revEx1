@@ -1,0 +1,39 @@
+const leia = require("prompt-sync")()
+
+let nomes = []
+nomes[0] = "Giovana"
+nomes[1] = 16
+nomes[10] = {
+    nomes : "Luciano"
+    idade : 16
+}
+
+console.log(nomes)
+console.log(nomes[4])
+console.log(nomes[10])
+console.log(nomes.length)
+
+let mat = []
+
+mat[0] = "null"
+mat[1] = "null"
+mat[2] = "null"
+
+let nomes = ['Lucas', 'Pedro', 'Marcos']
+let notas
+
+notas[0] = "0"
+notas[1] = "0"
+notas[2] = "0"
+
+let notas = [5, 6, 7]
+
+for(let x=0; x=nome.length; x++){
+    if(notas[x] <=5){
+        situacao = "REC"
+    }
+    else{
+        situacao = "Aprovado"
+    }
+    console.log(mat[x]+ "\t" +nomes[x]+ "\t" +notas[x]+ "\t" +situacao);
+}
